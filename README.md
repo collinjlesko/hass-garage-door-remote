@@ -9,8 +9,8 @@ Installation:
 3. Copy remotegarage.py to remote garage door controller (remote pi) [adjust pins if necessary]
 4. Copy RSA keys created using below to /config (they will probably default to /root/.ssh): 
 
-	ssh-keygen -t rsa # ENTER to every field
-	ssh-copy-id myname@somehost
+		ssh-keygen -t rsa # ENTER to every field
+		ssh-copy-id myname@somehost
 
 5. Touch ssh_config in /config with this text:
 
@@ -22,7 +22,7 @@ Installation:
 6. CHMOD for execution
 
 	Make sure to chmod 400 your RSA keys for instant ssh auth.
-	"chmod 400 /config/ssh_config /config/id_rsa"
+		chmod 400 /config/ssh_config /config/id_rsa
 	
 7. Toggle switch in Hass
 
