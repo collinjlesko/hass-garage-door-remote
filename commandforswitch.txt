@@ -1,0 +1,8 @@
+# Example configuration.yaml entry
+switch:
+  platform: command_line
+  switches:
+    garage_pin:
+        command_on: "ssh -F /config/ssh_config -i /config/id_rsa <user>@<host> 'python /home/pi/remotegarage.py' 2> /config/command.log"
+        command_off: "ssh -F /config/ssh_config -i /config/id_rsa <user>@<host> 'python /home/pi/remotegarage.py' 2> /config/command.log"
+        friendly_name: Garage Remote
