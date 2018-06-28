@@ -25,5 +25,7 @@ Installation:
 	
 7. Toggle switch in Hass
 
+![Imgur](https://i.imgur.com/oSmJHTD.jpg)
+
 Credit: https://community.home-assistant.io/t/error-when-executing-ssh-command-using-command-line-switch/26425
 
