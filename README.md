@@ -19,9 +19,8 @@ Installation:
 		Host *
 			StrictHostKeyChecking no
 	
-6. CHMOD for execution
-
-	Make sure to chmod 400 your RSA keys for instant ssh auth.
+6. CHMOD for execution, Make sure to chmod 400 your RSA keys for instant ssh auth.
+	
 		chmod 400 /config/ssh_config /config/id_rsa
 	
 7. Toggle switch in Hass
